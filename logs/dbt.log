@@ -1,0 +1,278 @@
+[0m13:55:45.960129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002491795D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249198D3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249198D3B10>]}
+
+
+============================== 13:55:45.975127 | 28597ba4-a2b6-42b3-b07b-3d3ba45bce5e ==============================
+[0m13:55:45.975127 [info ] [MainThread]: Running with dbt=1.11.7
+[0m13:55:45.976494 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:55:46.216488 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Kanyinsola\.dbt
+[0m13:56:34.357848 [debug] [MainThread]: Starter project path: C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m13:56:34.380062 [info ] [MainThread]: 
+Your new dbt project "maji_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:56:34.380724 [info ] [MainThread]: Setting up your profile.
+[0m14:05:18.946054 [info ] [MainThread]: Profile maji_data written to C:\Users\Kanyinsola\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:05:18.948482 [debug] [MainThread]: Command `dbt init` succeeded at 14:05:18.948223 after 573.29 seconds
+[0m14:05:18.949038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002494CE89E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249199929F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002494CE7B020>]}
+[0m14:05:18.949598 [debug] [MainThread]: Flushing usage events
+[0m14:05:19.703507 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:07:30.958849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002372225D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237241D7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237241D7B10>]}
+
+
+============================== 14:07:30.962468 | 96c13491-7dbb-4296-92ca-dc434c54931c ==============================
+[0m14:07:30.962468 [info ] [MainThread]: Running with dbt=1.11.7
+[0m14:07:30.963005 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:07:30.979798 [info ] [MainThread]: dbt version: 1.11.7
+[0m14:07:30.980201 [info ] [MainThread]: python version: 3.13.12
+[0m14:07:30.980428 [info ] [MainThread]: python path: C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt-env\Scripts\python.exe
+[0m14:07:30.980633 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:07:31.777488 [info ] [MainThread]: Using profiles dir at C:\Users\Kanyinsola\.dbt
+[0m14:07:31.778072 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kanyinsola\.dbt\profiles.yml
+[0m14:07:31.778515 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml
+[0m14:07:31.778839 [info ] [MainThread]: adapter type: bigquery
+[0m14:07:31.779203 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:07:31.779625 [info ] [MainThread]: Configuration:
+[0m14:07:31.780021 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:07:31.780275 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:07:31.780533 [info ] [MainThread]: Required dependencies:
+[0m14:07:31.780831 [debug] [MainThread]: Executing "git --help"
+[0m14:07:31.807188 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:07:31.807510 [debug] [MainThread]: STDERR: "b''"
+[0m14:07:31.807674 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:07:31.807987 [info ] [MainThread]: Connection:
+[0m14:07:31.808235 [info ] [MainThread]:   method: oauth
+[0m14:07:31.808594 [info ] [MainThread]:   database: majindogo-data-project
+[0m14:07:31.808808 [info ] [MainThread]:   execution_project: majindogo-data-project
+[0m14:07:31.809029 [info ] [MainThread]:   schema: water_services
+[0m14:07:31.809225 [info ] [MainThread]:   location: EU
+[0m14:07:31.809410 [info ] [MainThread]:   priority: interactive
+[0m14:07:31.809582 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:07:31.809759 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:07:31.809925 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:07:31.810084 [info ] [MainThread]:   job_retries: 1
+[0m14:07:31.810255 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:07:31.810419 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:07:31.810578 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:07:31.810741 [info ] [MainThread]:   client_id: None
+[0m14:07:31.810899 [info ] [MainThread]:   token_uri: None
+[0m14:07:31.811066 [info ] [MainThread]:   compute_region: None
+[0m14:07:31.811227 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:07:31.811386 [info ] [MainThread]:   gcs_bucket: None
+[0m14:07:31.811607 [info ] [MainThread]:   dataproc_batch: None
+[0m14:07:31.812038 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:07:31.975826 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:07:31.976084 [debug] [MainThread]: On debug: select 1 as id
+[0m14:07:31.976299 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:07:43.758715 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m14:07:43.759082 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m14:07:43.759259 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m14:07:43.759431 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:07:43.760068 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:07:43.760307 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml> not found
+
+[0m14:07:43.760552 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:07:43.761326 [debug] [MainThread]: Command `dbt debug` failed at 14:07:43.761234 after 12.93 seconds
+[0m14:07:43.761582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237598CFE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002375992E210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237599D47C0>]}
+[0m14:07:43.761829 [debug] [MainThread]: Flushing usage events
+[0m14:07:44.528031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:14:49.813157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166BF06D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166C10D7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166C10D7B10>]}
+
+
+============================== 14:14:49.817923 | 0a6d8fe5-2b58-407e-9880-57b39aff92f8 ==============================
+[0m14:14:49.817923 [info ] [MainThread]: Running with dbt=1.11.7
+[0m14:14:49.818556 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug --connection', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:14:49.826051 [info ] [MainThread]: dbt version: 1.11.7
+[0m14:14:49.826459 [info ] [MainThread]: python version: 3.13.12
+[0m14:14:49.826728 [info ] [MainThread]: python path: C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt-env\Scripts\python.exe
+[0m14:14:49.827109 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:14:50.584815 [info ] [MainThread]: Using profiles dir at C:\Users\Kanyinsola\.dbt
+[0m14:14:50.585314 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kanyinsola\.dbt\profiles.yml
+[0m14:14:50.585791 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml
+[0m14:14:50.586189 [info ] [MainThread]: adapter type: bigquery
+[0m14:14:50.586604 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:14:50.587019 [info ] [MainThread]: Skipping steps before connection verification
+[0m14:14:50.587340 [info ] [MainThread]: Connection:
+[0m14:14:50.587609 [info ] [MainThread]:   method: oauth
+[0m14:14:50.587828 [info ] [MainThread]:   database: majindogo-data-project
+[0m14:14:50.588056 [info ] [MainThread]:   execution_project: majindogo-data-project
+[0m14:14:50.588259 [info ] [MainThread]:   schema: water_services
+[0m14:14:50.588473 [info ] [MainThread]:   location: EU
+[0m14:14:50.588671 [info ] [MainThread]:   priority: interactive
+[0m14:14:50.588880 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:14:50.589071 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:14:50.589296 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:14:50.589496 [info ] [MainThread]:   job_retries: 1
+[0m14:14:50.589939 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:14:50.590224 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:14:50.590456 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:14:50.590738 [info ] [MainThread]:   client_id: None
+[0m14:14:50.591124 [info ] [MainThread]:   token_uri: None
+[0m14:14:50.591394 [info ] [MainThread]:   compute_region: None
+[0m14:14:50.591647 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:14:50.591880 [info ] [MainThread]:   gcs_bucket: None
+[0m14:14:50.592095 [info ] [MainThread]:   dataproc_batch: None
+[0m14:14:50.592429 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:14:50.753993 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:14:50.754233 [debug] [MainThread]: On debug: select 1 as id
+[0m14:14:50.754419 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:15:02.950145 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m14:15:02.950617 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m14:15:02.950781 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m14:15:02.950999 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:15:02.951491 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:15:02.951800 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml> not found
+
+[0m14:15:02.952231 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:15:02.952929 [debug] [MainThread]: Command `dbt debug` failed at 14:15:02.952854 after 13.28 seconds
+[0m14:15:02.953138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166F578FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166F57EE210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166F58987C0>]}
+[0m14:15:02.953356 [debug] [MainThread]: Flushing usage events
+[0m14:15:03.688048 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:30:29.167160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFBF5D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFCED7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFCED7B10>]}
+
+
+============================== 16:30:29.170016 | ab62a45c-6e7f-496c-a8b3-395ccebc5f5c ==============================
+[0m16:30:29.170016 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:30:29.170478 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:31:34.960733 [info ] [MainThread]: A project called maji_data already exists here.
+[0m16:31:34.962467 [debug] [MainThread]: Command `dbt init` succeeded at 16:31:34.962274 after 66.00 seconds
+[0m16:31:34.962991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFCEF2FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFCF92B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EFCD2B570>]}
+[0m16:31:34.963704 [debug] [MainThread]: Flushing usage events
+[0m16:31:35.693639 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:58:47.455398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D222C5D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D224BD3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D224BD3B10>]}
+
+
+============================== 16:58:47.458265 | 586bf803-11e8-42f8-b52e-0baf6aa9a458 ==============================
+[0m16:58:47.458265 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:58:47.458787 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:59:03.825112 [info ] [MainThread]: A project called maji_data already exists here.
+[0m16:59:03.826553 [debug] [MainThread]: Command `dbt init` succeeded at 16:59:03.826393 after 16.50 seconds
+[0m16:59:03.826991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D224BF2FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D224C928D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D224A2B570>]}
+[0m16:59:03.827539 [debug] [MainThread]: Flushing usage events
+[0m16:59:04.565255 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:07:44.922435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D711A59160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7139CBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7139CBB10>]}
+
+
+============================== 17:07:44.925132 | 027beffb-c308-41d1-9024-1823047bd205 ==============================
+[0m17:07:44.925132 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:07:44.925689 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Kanyinsola\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:07:44.933750 [info ] [MainThread]: dbt version: 1.11.7
+[0m17:07:44.934068 [info ] [MainThread]: python version: 3.13.12
+[0m17:07:44.934350 [info ] [MainThread]: python path: C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt-env\Scripts\python.exe
+[0m17:07:44.934564 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:07:45.730204 [info ] [MainThread]: Using profiles dir at C:\Users\Kanyinsola\.dbt
+[0m17:07:45.730825 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kanyinsola\.dbt\profiles.yml
+[0m17:07:45.731189 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml
+[0m17:07:45.731536 [info ] [MainThread]: adapter type: bigquery
+[0m17:07:45.731956 [info ] [MainThread]: adapter version: 1.11.1
+[0m17:07:45.732379 [info ] [MainThread]: Configuration:
+[0m17:07:45.732785 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:07:45.733130 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:07:45.733473 [info ] [MainThread]: Required dependencies:
+[0m17:07:45.733876 [debug] [MainThread]: Executing "git --help"
+[0m17:07:45.755405 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:07:45.755682 [debug] [MainThread]: STDERR: "b''"
+[0m17:07:45.755882 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:07:45.756107 [info ] [MainThread]: Connection:
+[0m17:07:45.756274 [info ] [MainThread]:   method: oauth
+[0m17:07:45.756437 [info ] [MainThread]:   database: majindogo-data-project
+[0m17:07:45.756580 [info ] [MainThread]:   execution_project: majindogo-data-project
+[0m17:07:45.756714 [info ] [MainThread]:   schema: water_services
+[0m17:07:45.756844 [info ] [MainThread]:   location: EU
+[0m17:07:45.756972 [info ] [MainThread]:   priority: interactive
+[0m17:07:45.757100 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:07:45.757227 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:07:45.757574 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:07:45.758052 [info ] [MainThread]:   job_retries: 1
+[0m17:07:45.758266 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:07:45.758578 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:07:45.758903 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:07:45.759272 [info ] [MainThread]:   client_id: None
+[0m17:07:45.759789 [info ] [MainThread]:   token_uri: None
+[0m17:07:45.760153 [info ] [MainThread]:   compute_region: None
+[0m17:07:45.760492 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:07:45.760848 [info ] [MainThread]:   gcs_bucket: None
+[0m17:07:45.761087 [info ] [MainThread]:   dataproc_batch: None
+[0m17:07:45.761549 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m17:07:45.946237 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:07:45.946486 [debug] [MainThread]: On debug: select 1 as id
+[0m17:07:45.946710 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:07:57.939499 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m17:07:57.939871 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m17:07:57.940074 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m17:07:57.940255 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:07:57.940565 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:07:57.940929 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Kanyinsola\Maji-Project-with-dbt\dbt_project.yml> not found
+
+[0m17:07:57.941207 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:07:57.941890 [debug] [MainThread]: Command `dbt debug` failed at 17:07:57.941808 after 13.12 seconds
+[0m17:07:57.942115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D74908FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7490F6210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7492987C0>]}
+[0m17:07:57.942343 [debug] [MainThread]: Flushing usage events
+[0m17:07:58.646303 [debug] [MainThread]: An error was encountered while trying to flush usage events
