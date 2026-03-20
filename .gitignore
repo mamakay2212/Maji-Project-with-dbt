@@ -1,4 +1,4 @@
 dbt-env/
 profiles.yml
-
+.env
 
